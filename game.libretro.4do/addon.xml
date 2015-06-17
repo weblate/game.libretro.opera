@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.4do"
-		name="3DO (4do)"
-		version="1.0.1"
+		name="3DO (4DO)"
+		version="1.3.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
-		<import addon="game.controller.nes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="game.libretro.4do.so"
+			library_android="libgame.libretro.4do.so"
 			library_linux="game.libretro.4do.so"
 			library_osx="game.libretro.4do.dylib"
 			library_windx="game.libretro.4do.dll"
 			library_wingl="game.libretro.4do.dll">
 		<platforms>3DO</platforms>
-		<extensions>3do</extensions>
+		<extensions>iso</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">4do v1.0.1</summary>
-		<description>Source: https://github.com/libretro/4do-libretro</description>
+		<summary lang="en">4DO v1.3.2.3</summary>
+		<description>Port of 4DO/libfreedo to libretro.
+
+Supported files: .iso
+
+License: LGPL</description>
 		<platform>all</platform>
+		<nofanart>true</nofanart>
 	</extension>
 </addon>
