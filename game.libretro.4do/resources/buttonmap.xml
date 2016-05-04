@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap>
+	<controller id="game.controller.3d0" type="joypad">
+		<feature name="a" mapto="y"/>
+		<feature name="b" mapto="b"/>
+		<feature name="c" mapto="a"/>
+		<feature name="up" mapto="up"/>
+		<feature name="down" mapto="down"/>
+		<feature name="right" mapto="right"/>
+		<feature name="left" mapto="left"/>
+		<feature name="l" mapto="l"/>
+		<feature name="r" mapto="r"/>
+		<feature name="play" mapto="start"/>
+		<feature name="stop" mapto="select"/>
+	</controller>
+</buttonmap>
