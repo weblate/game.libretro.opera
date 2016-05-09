@@ -9,7 +9,7 @@ enable_language(CXX)
 find_package(kodi REQUIRED)
 find_package(libretro-4do REQUIRED)
 
-set(DEPLIBS 4do
+set(DEPLIBS 4do)
 set(4DO_CUSTOM_BINARY ${4DO_LIB}
                       ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX} 4do)
 
