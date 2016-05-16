@@ -8,11 +8,7 @@
 		<import addon="game.controller.3do" version="1.0.0" optional="true"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="libgame.libretro.4do.so"
-			library_linux="game.libretro.4do.so"
-			library_osx="game.libretro.4do.dylib"
-			library_windx="game.libretro.4do.dll"
-			library_wingl="game.libretro.4do.dll">
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>3DO</platforms>
 		<extensions>iso</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -25,7 +21,7 @@
 Supported files: .iso
 
 License: LGPL</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
