@@ -18,9 +18,8 @@
 		<summary lang="en">4DO v1.3.2.3</summary>
 		<description>Port of 4DO/libfreedo to libretro.
 
-Supported files: .iso
-
-License: LGPL</description>
+Supported files: .iso</description>
+		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
