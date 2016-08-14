@@ -12,7 +12,8 @@
 		<platforms>3DO</platforms>
 		<extensions>iso</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">4DO v1.3.2.3</summary>
