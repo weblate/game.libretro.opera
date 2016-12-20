@@ -17,11 +17,11 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">3DO (4DO) 1.3.2.3 fddde4c</summary>
+		<summary lang="en">3DO (4DO) 1.3.2.3</summary>
 		<description>Port of 4DO/libfreedo to libretro.
 
 Supported files: .iso</description>
-		<license>LGPL with additional notes</license>
+		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
 </addon>
