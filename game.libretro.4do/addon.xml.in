@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>3DO</platforms>
-		<extensions>iso</extensions>
+		<extensions>iso|img|bin|cue</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
@@ -20,7 +20,7 @@
 		<summary lang="en">3DO (4DO) 1.3.2.4</summary>
 		<description>Port of 4DO/libfreedo to libretro.
 
-Supported files: .iso</description>
+Supported files: .iso, .img, .bin, .cue</description>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
