@@ -3,7 +3,23 @@
   <port id="1">
     <accepts controller="game.controller.3do">
       <port id="1">
-        <accepts controller="game.controller.3do"/>
+        <accepts controller="game.controller.3do">
+          <port id="1">
+            <accepts controller="game.controller.3do">
+              <port id="1">
+                <accepts controller="game.controller.3do">
+                  <port id="1">
+                    <accepts controller="game.controller.3do">
+                      <port id="1">
+                        <accepts controller="game.controller.3do"/>
+                      </port>
+                    </accepts>
+                  </port>
+                </accepts>
+              </port>
+            </accepts>
+          </port>
+        </accepts>
       </port>
     </accepts>
   </port>
