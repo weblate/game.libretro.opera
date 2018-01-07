@@ -25,5 +25,8 @@
 Supported files: .iso, .img, .bin, .cue</description>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
