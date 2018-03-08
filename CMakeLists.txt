@@ -10,3 +10,5 @@ set(4DO_CUSTOM_BINARY ${4DO_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 build_addon(${PROJECT_NAME} 4DO "")
+
+include(CPack)
