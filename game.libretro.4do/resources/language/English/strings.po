@@ -21,6 +21,34 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "High Resolution (restart)"
+msgid "CPU overclock"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Graphics Step Y Hack (Samurai Shodown)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Timing Hack 1 (Crash 'n Burn)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Timing Hack 3 (Dinopark Tycoon)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Timing Hack 5 (Microcosm)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Timing Hack 6 (Alone in the Dark)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "High Resolution"
+msgstr ""
+
+msgctxt "#30008"
+msgid "NVRAM Storage"
 msgstr ""
 
