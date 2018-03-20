@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>3DO</platforms>
-		<extensions>iso|img|bin|cue</extensions>
+		<extensions>iso|bin|chd|cue</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
@@ -20,7 +20,7 @@
 
 4DO is based on the FreeDO source code.
 
-Supported files: .iso, .img, .bin, .cue</description>
+Supported files: .iso, .bin, .chd, .cue</description>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
