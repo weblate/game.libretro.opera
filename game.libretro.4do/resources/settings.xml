@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="30000">
-		<setting label="30001" type="select" id="4do_cpu_overclock" values="1x|2x|4x" default="1x"/>
-		<setting label="30002" type="select" id="4do_hack_graphics_step_y" values="disabled|enabled" default="disabled"/>
-		<setting label="30003" type="select" id="4do_hack_timing_1" values="disabled|enabled" default="disabled"/>
-		<setting label="30004" type="select" id="4do_hack_timing_3" values="disabled|enabled" default="disabled"/>
-		<setting label="30005" type="select" id="4do_hack_timing_5" values="disabled|enabled" default="disabled"/>
-		<setting label="30006" type="select" id="4do_hack_timing_6" values="disabled|enabled" default="disabled"/>
-		<setting label="30007" type="select" id="4do_high_resolution" values="disabled|enabled" default="disabled"/>
-		<setting label="30008" type="select" id="4do_nvram_storage" values="per game|shared" default="per game"/>
+		<setting label="30001" type="select" id="4do_controller_count" values="1|2|3|4|5|6|7|8|0" default="1"/>
+		<setting label="30002" type="select" id="4do_cpu_overclock" values="1x|2x|4x" default="1x"/>
+		<setting label="30003" type="select" id="4do_hack_graphics_step_y" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="4do_hack_timing_1" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="4do_hack_timing_3" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="4do_hack_timing_5" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="4do_hack_timing_6" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="4do_high_resolution" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="4do_nvram_storage" values="per game|shared" default="per game"/>
+		<setting label="30010" type="select" id="4do_x_button_also_p" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>
