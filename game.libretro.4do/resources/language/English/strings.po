@@ -21,42 +21,46 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Controller Count"
+msgid "BIOS"
 msgstr ""
 
 msgctxt "#30002"
-msgid "CPU overclock"
+msgid "Controller Count"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Graphics Step Y Hack (Samurai Shodown)"
+msgid "CPU overclock"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Timing Hack 1 (Crash 'n Burn)"
+msgid "Graphics Step Y Hack (Samurai Shodown)"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Timing Hack 3 (Dinopark Tycoon)"
+msgid "Timing Hack 1 (Crash 'n Burn)"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Timing Hack 5 (Microcosm)"
+msgid "Timing Hack 3 (Dinopark Tycoon)"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Timing Hack 6 (Alone in the Dark)"
+msgid "Timing Hack 5 (Microcosm)"
 msgstr ""
 
 msgctxt "#30008"
-msgid "High Resolution"
+msgid "Timing Hack 6 (Alone in the Dark)"
 msgstr ""
 
 msgctxt "#30009"
-msgid "NVRAM Storage"
+msgid "High Resolution"
 msgstr ""
 
 msgctxt "#30010"
+msgid "NVRAM Storage"
+msgstr ""
+
+msgctxt "#30011"
 msgid "Button X also acts as P"
 msgstr ""
 
