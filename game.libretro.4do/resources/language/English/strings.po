@@ -21,11 +21,11 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "BIOS"
+msgid "Active Devices"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Controller Count"
+msgid "BIOS"
 msgstr ""
 
 msgctxt "#30003"
