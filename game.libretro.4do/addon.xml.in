@@ -21,7 +21,7 @@
 4DO is based on the FreeDO source code.
 
 Supported files: .iso, .bin, .chd, .cue</description>
-		<license>Non-commercial</license>
+		<license>LGPL/Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
