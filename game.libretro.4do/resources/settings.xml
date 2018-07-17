@@ -12,6 +12,7 @@
 		<setting label="30009" type="select" id="4do_hack_timing_6" values="disabled|enabled" default="disabled"/>
 		<setting label="30010" type="select" id="4do_high_resolution" values="disabled|enabled" default="disabled"/>
 		<setting label="30011" type="select" id="4do_kprint" values="disabled|enabled" default="disabled"/>
-		<setting label="30012" type="select" id="4do_nvram_storage" values="per game|shared" default="per game"/>
+		<setting label="30012" type="select" id="4do_madam_matrix_engine" values="hardware|software" default="hardware"/>
+		<setting label="30013" type="select" id="4do_nvram_storage" values="per game|shared" default="per game"/>
 	</category>
 </settings>

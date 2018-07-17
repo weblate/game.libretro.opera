@@ -65,6 +65,10 @@ msgid "3DO debugging output (stderr)"
 msgstr ""
 
 msgctxt "#30012"
+msgid "MADAM Matrix Engine"
+msgstr ""
+
+msgctxt "#30013"
 msgid "NVRAM Storage"
 msgstr ""
 
