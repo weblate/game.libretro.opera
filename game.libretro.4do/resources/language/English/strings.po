@@ -33,42 +33,46 @@ msgid "CPU overclock"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Font (rom2)"
+msgid "Threaded DSP"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Graphics Step Y Hack (Samurai Shodown)"
+msgid "Font (rom2)"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Timing Hack 1 (Crash 'n Burn)"
+msgid "Graphics Step Y Hack (Samurai Shodown)"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Timing Hack 3 (Dinopark Tycoon)"
+msgid "Timing Hack 1 (Crash 'n Burn)"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Timing Hack 5 (Microcosm)"
+msgid "Timing Hack 3 (Dinopark Tycoon)"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Timing Hack 6 (Alone in the Dark)"
+msgid "Timing Hack 5 (Microcosm)"
 msgstr ""
 
 msgctxt "#30010"
-msgid "High Resolution"
+msgid "Timing Hack 6 (Alone in the Dark)"
 msgstr ""
 
 msgctxt "#30011"
-msgid "3DO debugging output (stderr)"
+msgid "High Resolution"
 msgstr ""
 
 msgctxt "#30012"
-msgid "MADAM Matrix Engine"
+msgid "3DO debugging output (stderr)"
 msgstr ""
 
 msgctxt "#30013"
+msgid "MADAM Matrix Engine"
+msgstr ""
+
+msgctxt "#30014"
 msgid "NVRAM Storage"
 msgstr ""
 
