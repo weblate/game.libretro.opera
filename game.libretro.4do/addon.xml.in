@@ -23,6 +23,7 @@
 Supported files: .iso, .bin, .chd, .cue</description>
 		<license>LGPL/Non-commercial</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.4do</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
