@@ -1,1 +1,1 @@
-4do https://github.com/libretro/4do-libretro master
+4do https://github.com/libretro/4do-libretro/archive/e1fec6e5c51ed6a579e4597e51e3facdb62df743.zip
