@@ -4,7 +4,7 @@ project(game.libretro.4do)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(Kodi REQUIRED)
-find_package(libretro-4do REQUIRED)
+find_library(4DO_LIB NAMES 4do_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} PATH_SUFFIXES libretro)
 
 set(4DO_CUSTOM_BINARY ${4DO_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
