@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap>
-	<controller id="game.controller.3d0" type="RETRO_DEVICE_JOYPAD">
+	<controller id="game.controller.3do" type="RETRO_DEVICE_JOYPAD">
 		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
 		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
 		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
