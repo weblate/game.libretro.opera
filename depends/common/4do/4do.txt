@@ -1,1 +1,1 @@
-4do https://github.com/libretro/4do-libretro/archive/1fa503598323f7c573deca8dfef44f3b465c8074.zip
+4do https://github.com/libretro/4do-libretro/archive/b6ad4bc8548f2f3792cd929ccf26d9078b73a1c0.zip
