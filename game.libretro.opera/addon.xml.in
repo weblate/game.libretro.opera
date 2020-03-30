@@ -16,9 +16,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">The 3DO Company - 3DO (Opera) 1.0.0</summary>
-		<description lang="en_GB">4DO emulates the 3DO Interactive Multiplayer video game system, often called simply the 3DO.
+		<description lang="en_GB">Opera emulates the 3DO Interactive Multiplayer video game system, often called simply the 3DO.
 
-4DO is based on the FreeDO source code.
+Opera is a fork of 4DO, which is based on the FreeDO source code.
 
 Supported files: .iso, .bin, .chd, .cue</description>
 		<license>LGPL/Non-commercial</license>
