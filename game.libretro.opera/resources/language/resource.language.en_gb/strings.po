@@ -1,10 +1,10 @@
-# game.libretro.4do language file
-# Addon Name: game.libretro.4do
-# Addon id: game.libretro.4do
+# game.libretro.opera language file
+# Addon Name: game.libretro.opera
+# Addon id: game.libretro.opera
 # Addon Provider: libretro
 msgid ""
 msgstr ""
-"Project-Id-Version: game.libretro.4do\n"
+"Project-Id-Version: game.libretro.opera\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: 2019-08-24 22:21i\n"
 "PO-Revision-Date: 2019-08-24 22:21i\n"
@@ -61,11 +61,11 @@ msgid "Timing Hack 6 (Alone in the Dark)"
 msgstr ""
 
 msgctxt "#30011"
-msgid "High Resolution"
+msgid "HiRes CEL Rendering"
 msgstr ""
 
 msgctxt "#30012"
-msgid "3DO Debugging Output (stderr)"
+msgid "Debug Output"
 msgstr ""
 
 msgctxt "#30013"
@@ -77,5 +77,17 @@ msgid "NVRAM Storage"
 msgstr ""
 
 msgctxt "#30015"
+msgid "Mode"
+msgstr ""
+
+msgctxt "#30016"
 msgid "OperaOS SWI HLE"
+msgstr ""
+
+msgctxt "#30017"
+msgid "VDLP Bypass CLUT"
+msgstr ""
+
+msgctxt "#30018"
+msgid "VDLP Pixel Format"
 msgstr ""

@@ -4,10 +4,10 @@ image: Visual Studio 2017
 
 shallow_clone: true
 
-clone_folder: c:\projects\game.libretro.4do
+clone_folder: c:\projects\game.libretro.opera
 
 environment:
-  app_id: game.libretro.4do
+  app_id: game.libretro.opera
 
   matrix:
     - GENERATOR: "Visual Studio 15"

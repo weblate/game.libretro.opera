@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: game.libretro.4do
-Source: https://github.com/kodi-game/game.libretro.4do
+Upstream-Name: game.libretro.opera
+Source: https://github.com/kodi-game/game.libretro.opera
 
 Files: *
 Copyright: 2005-2019 Team Kodi

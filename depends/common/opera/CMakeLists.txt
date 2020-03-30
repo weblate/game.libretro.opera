@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(4do)
+project(opera)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
@@ -8,7 +8,7 @@ include(ExternalProject)
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
 set(LIBRETRO_BINARY_DIR .)
-set(LIBRETRO_SONAME 4do_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
+set(LIBRETRO_SONAME opera_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
@@ -23,8 +23,18 @@ elseif(CORE_SYSTEM_NAME STREQUAL linux)
 elseif(CORE_SYSTEM_NAME STREQUAL osx)
   set(BUILD_COMMAND $(MAKE) -C . -f Makefile  platform=osx ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedded)
-  set(LIBRETRO_SONAME 4do_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
-  set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C . -f Makefile  platform=ios ${LIBRETRO_DEBUG} GIT_VERSION=)
+  if(CORE_PLATFORM_NAME STREQUAL ios)
+    set(LIBRETRO_SONAME opera_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
+    if(CPU STREQUAL arm64)
+      set(PLATFORM ios-arm64)
+    else()
+      set(PLATFORM ios)
+    endif()
+    set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C . -f Makefile  platform=${PLATFORM} ${LIBRETRO_DEBUG} GIT_VERSION=)
+  elseif(CORE_PLATFORM_NAME STREQUAL tvos)
+    set(LIBRETRO_SONAME opera_libretro_tvos${CMAKE_SHARED_LIBRARY_SUFFIX})
+    set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C . -f Makefile  platform=tvos-arm64 ${LIBRETRO_DEBUG} GIT_VERSION=)
+  endif()
 elseif(CORE_SYSTEM_NAME STREQUAL android)
   if(NOT NDKROOT)
     message(FATAL_ERROR "${PROJECT_NAME} needs NDKROOT for Android. Missing Toolchain file?")
@@ -57,4 +67,4 @@ externalproject_add(${PROJECT_NAME}
 
 # install the generated shared library
 install(FILES ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${LIBRETRO_SONAME}
-        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/libretro RENAME 4do_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/libretro RENAME opera_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
