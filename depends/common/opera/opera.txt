@@ -1,1 +1,1 @@
-opera https://github.com/libretro/opera-libretro/archive/27bc2653ed469072a6a95102a8212a35fbb1e590.zip
+opera https://github.com/libretro/opera-libretro/archive/e58f63f745ab7be581493d16438c4ae0ddf3c98c.zip
