@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.opera"
 		name="The 3DO Company - 3DO (Opera)"
-		version="1.0.0.14"
+		version="1.0.0.15"
 		provider-name="trapexit, JohnnyDude, FreeDO team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
